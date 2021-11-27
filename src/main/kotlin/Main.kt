@@ -23,11 +23,15 @@ class Basics(){
         println("Alphabet range: $aToZ")
         if (nine) (println ("ok, $nine, $x is in $oneToTen"))
     }
+
     /* Ranges:
     reversed() reversed interval
+    Extension for numeric tyoe:
     downTo()   decreasing interval
     rangeTo()  // range to a value
-    */
+    Examples: */
+    val coumtingDown = 100.downTo(0)
+    
 }
 
 
