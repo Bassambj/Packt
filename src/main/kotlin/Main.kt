@@ -4,6 +4,7 @@ fun main() {
     val basic = Basics()
     basic.welcome()
     basic.getRange()
+    println(basic.coumtingDown)
 }
 
 class Basics(){
